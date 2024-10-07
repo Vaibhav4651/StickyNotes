@@ -1,0 +1,30 @@
+        body{
+            background-color: gray;
+            text-align: center;
+        }
+        #noteDiv{
+            margin: 0px auto;
+        }
+        #addNoteBtn{
+            border: 2px solid orangered;
+            height: 30px;
+            width: 30px;
+
+        }
+        .newNotes {
+            display: flex;
+            flex: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        textarea{
+            width: 200px;   
+            height: 150px;
+            border: none;
+            background-color: lightyellow;
+            font-size: 14px;
+            resize: none;
+            float: left;
+            margin-left: 20px;
+        }
